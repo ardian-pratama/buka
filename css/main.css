@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+}
+h1 {
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+.image {
+    display: flex;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+}
